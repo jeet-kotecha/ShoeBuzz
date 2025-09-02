@@ -1,7 +1,6 @@
-/* body{
-	/* background:url(../images/bg.png) repeat scroll left top #5e92eb; 
-	}*/
-
+body{
+	background-color: #fff6ea;
+}
 #header {
 	height: 70px;
 	width: 100%;
@@ -87,6 +86,55 @@
 }
 
 
+.nav {
+	text-indent: 10px;
+	font-size: 15px;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav ul li {
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav a {
+  text-decoration: none !important;
+  color: black;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color change */
+.nav a:hover {
+  color: #ff6600; /* matches your orange theme */
+}
+
+/* Underline effect */
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 5%;
+  bottom: -5px;
+  background-color: #ff6600;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.nav a:hover::after {
+  width: 100%;
+}
 .nav1 {
 	text-indent: 10px;
 	font-size: 15px;
@@ -126,7 +174,7 @@
   position: absolute;
   width: 0%;
   height: 2px;
-  left: 15%;
+  left: 5%;
   bottom: -5px;
   background-color: #ff6600;
   transition: width 0.3s ease;
@@ -197,7 +245,7 @@
   position: absolute;
   width: 0%;
   height: 2px;
-  left: 15%;
+  left: 5%;
   bottom: -5px;
   background-color: #ff6600;
   transition: width 0.3s ease;
@@ -404,9 +452,10 @@
 
 
 #rightcontent {
-	position: relative;
+	position:relative;
 	width: 1025px;
 	top: 50px;
 	left: 220px;
 	z-index: -99999;
+	
 }

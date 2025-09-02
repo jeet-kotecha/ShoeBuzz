@@ -179,7 +179,7 @@
 		</ul>
 	</div>
 
-	<div id="rightcontent" style="position:absolute; top:25%;">
+	<div id="rightcontent" style="position:absolute; top:25%; left:25%;">
 			<div class="alert alert-info"><center><h2>Orders</h2></center></div>
 			<br />
 				<div style='width:975px;' class="alert alert-info">

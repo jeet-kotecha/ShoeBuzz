@@ -133,7 +133,7 @@ $(function () {
 			<li><a href="order.php">Orders</a></li>
 		</ul>
 	</div>
-	<div id="rightcontent" style="position:absolute; top: 25%;">
+	<div id="rightcontent" style="position:absolute; top: 25%; left:25%;">
 
 	<div id="container" style="min-width: 310px; height: 600px; max-width: 1000px; margin: 0 auto; background:none; float:left;"></div>
 

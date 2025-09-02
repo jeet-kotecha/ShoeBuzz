@@ -57,7 +57,7 @@
 	<br>
 
 
-		<a href="#add" role="button" class="btn btn-info" data-toggle="modal" style="position:absolute;margin-left:222px; margin-top:140px; z-index:-1000;"><i class="icon-plus-sign icon-white"></i>Add Product</a>
+		<a href="#add" role="button" class="btn btn-info" data-toggle="modal" style="position:absolute;margin-left:25%; margin-top:325px; z-index:-1000;"><i class="icon-plus-sign icon-white"></i>Add Product</a>
 		<div id="add" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -159,7 +159,7 @@
 		</ul>
 	</div>
 
-	<div id="rightcontent" style="position:absolute; top:25%;">
+	<div id="rightcontent" style="position:absolute; top:25%; left:25%;">
 			<div class="alert alert-info"><center><h2>Features</h2></center></div>
 			<br />
 				<label  style="padding:5px; float:right;"><input type="text" name="filter" placeholder="Search Product here..." id="filter"></label>

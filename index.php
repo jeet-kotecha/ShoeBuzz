@@ -102,11 +102,7 @@
 				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 	</div>
-	<!-- <div id="video">
-		<video controls autoplay width="445px" height="300px">
-			<source src="video/commercial.mp4" type="video/mp4">
-		</video>
-	</div> -->
+
 </div>
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:5%;">

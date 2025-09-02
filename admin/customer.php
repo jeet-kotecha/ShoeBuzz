@@ -58,7 +58,7 @@
 		</ul>
 	</div>
 
-	<div id="rightcontent" style="position:absolute; top:25%;">
+	<div id="rightcontent" style="position:absolute; top:25%; left:25%;">
 			<div class="alert alert-info"><center><h2>Customers</h2></center></div>
 			<br />
 				<label  style="padding:5px; float:right;"><input type="text" name="filter" placeholder="Search Customers here..." id="filter"></label>
