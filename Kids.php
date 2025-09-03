@@ -114,9 +114,9 @@
 	<div class="nav1">
 		<ul>
 			<li><a href="product.php">Men</a></li>
-			<li>|</li>
+			
 			<li><a href="Women.php" >Women</a></li>
-			<li>|</li>
+			
 			<li><a href="Kids.php" class="active" style="color:#111;">Kids</a></li>
 		</ul>
 	</div>

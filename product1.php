@@ -107,9 +107,9 @@
 		<div class="nav1">
 			<ul>
 				<li><a href="product1.php" class="active" style="color:#111;">Men</a></li>
-				<li>|</li>
+				
 				<li><a href="Women1.php">Women</a></li>
-				<li>|</li>
+				
 				<li><a href="Kids1.php">Kids</a></li>
 			</ul>
 				<?php echo "<a href='cart.php?id=".$id."&action=view'><button class='btn btn-inverse' style='right:1%; position:fixed; top:10%;'><i class='icon-shopping-cart icon-white'></i> View Cart</button></a>" ?>
