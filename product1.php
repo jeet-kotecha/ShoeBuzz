@@ -44,7 +44,7 @@
 		<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">My Account</h3>
+					<h3 id="myModalLabel">My Profile</h3>
 				</div>
 					<div class="modal-body">
 						<?php
@@ -107,17 +107,13 @@
 		<div class="nav1">
 			<ul>
 				<li><a href="product1.php" class="active" style="color:#111;">Men</a></li>
-				
 				<li><a href="Women1.php">Women</a></li>
-				
 				<li><a href="Kids1.php">Kids</a></li>
 			</ul>
 				<?php echo "<a href='cart.php?id=".$id."&action=view'><button class='btn btn-inverse' style='right:1%; position:fixed; top:10%;'><i class='icon-shopping-cart icon-white'></i> View Cart</button></a>" ?>
 		</div>
 
 	<div id="content">
-		<br />
-		<br />
 		<div id="product">
 			<form method="post">
 

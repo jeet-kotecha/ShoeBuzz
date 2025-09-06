@@ -83,9 +83,9 @@
 <div id="container">
 	<div class="nav">
 			 <ul>
-				<li><a href="index.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Category</a></li>
-				<li><a href="aboutus.php">   <i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product.php"><i class="icon-th-list"></i>Category</a></li>
+				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>

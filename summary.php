@@ -49,7 +49,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">My Account</h3>
+					<h3 id="myModalLabel">My Profile</h3>
 				</div>
 					<div class="modal-body">
 						<?php

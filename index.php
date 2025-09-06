@@ -60,15 +60,15 @@
 					<div class="modal-body">
 						<center>
 					<form method="post">
-						<input type="text" name="firstname" placeholder="Firstname" required>
-						<input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required>
-						<input type="text" name="lastname" placeholder="Lastname" required>
-						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
-						<input type="text" name="country" placeholder="Country" required>
-						<input type="text" name="pincode" placeholder="Pin Code" required maxlength="6">
-						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">
-						<input type="email" name="email" placeholder="Email" required>
-						<input type="password" name="password" placeholder="Password" required>
+						<input type="text" name="firstname" placeholder="Firstname" style="width:430px;" required><br>
+						<input type="text" name="mi" placeholder="Middle Initial" style="width:430px;" maxlength="1" required><br>
+						<input type="text" name="lastname" placeholder="Lastname" style="width:430px;" required><br>
+						<input type="text" name="address" placeholder="Address" style="width:430px;" required><br>
+						<input type="text" name="country" placeholder="Country" style="width:430px;" required><br>
+						<input type="text" name="pincode" placeholder="Pin Code" style="width:430px;" required maxlength="6"><br>
+						<input type="text" name="mobile" placeholder="Mobile Number" style="width:430px;" maxlength="19"><br>
+						<input type="email" name="email" placeholder="Email" style="width:430px;" required><br>
+						<input type="password" name="password" placeholder="Password" style="width:430px;" required><br>
 						</center>
 					</div>
 				<div class="modal-footer">
@@ -80,7 +80,6 @@
 	<br>
 <div id="container">
 	<div class="nav">
-
 			 <ul>
 				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
 				<li><a href="product.php"><i class="icon-th-list"></i>Category</a>
@@ -131,7 +130,6 @@
 							echo "<br />";
 							echo "Price ".$fetch['product_price']." Rs.";
 							echo "<br />";
-							//echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "<h3 class='text-info' style='font-size:20px;line-height: 19px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";

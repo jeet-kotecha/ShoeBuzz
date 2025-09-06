@@ -65,7 +65,7 @@
 				<div id="account">
 					<form method="POST" action="function/edit_customer.php">
 						<center>
-						<h3>Edit My Account...</h3>
+						<h3>Edit My Profile...</h3>
 							<table>
 								<tr>
 									<td>Firstname:</td><td><input type="text" name="firstname" placeholder="Firstname" required value="<?php echo $firstname; ?>"></td>

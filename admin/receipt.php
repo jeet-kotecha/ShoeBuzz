@@ -59,7 +59,7 @@
 		</script>
 </head>
 <body>
-	<div id="header" style="position:fixed;">
+	<div id="header">
 		<img src="../img/logo.jpg">
 		<label>Shoe Buzz</label>
 

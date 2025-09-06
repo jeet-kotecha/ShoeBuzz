@@ -122,8 +122,8 @@ body{
   content: '';
   position: absolute;
   width: 0%;
-  height: 2px;
-  left: 5%;
+  height: 3px;
+  left: 10%;
   bottom: -5px;
   background-color: #340d5b;
   transition: width 0.3s ease;
@@ -134,8 +134,10 @@ body{
   width: 100%;
 }
 .nav1 {
-	text-indent: 10px;
+	text-indent: 30px;
 	font-size: 15px;
+	background-color: #ff5900;
+	height: 50px;
 }
 
 .nav1 ul {
@@ -172,7 +174,7 @@ body{
   position: absolute;
   width: 0%;
   height: 3px;
-  left: 5%;
+  left: 15%;
   bottom: -5px;
   background-color: #000000;
   transition: width 0.3s ease;
@@ -206,8 +208,10 @@ body{
 .anav {
 	text-indent: 10px;
 	font-size: 15px;
-	margin-top: 5%;
 	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .anav ul {
 	display: flex;
@@ -397,57 +401,6 @@ body{
 	border-radius: 5px;
 	position: relative;
 }
-
-
-/* #a_nav {
-	position: fixed;
-	background-color: #c37f1f;
-	width: 219px;
-	top: 8%;
-	height: 665px;
-	display:flex;
-	align-items: center;
-	justify-content:center;
-}
-
-#a_nav ul {
-	list-style-type: none;
-	text-indent: 35px;
-	right: 25px;
-	position: relative;
-}
-
-#a_nav ul li {
-	border-bottom: 1px solid #333;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	width: 219px;
-}
-
-#a_nav ul li a {
-	text-decoration: none;
-	color: #333;
-	font-size: 20px;
-}
-
-#a_nav ul li a:hover {
-	color: #fff;
-}
-
-#a_nav ul li ul {
-	display: none;
-}
-
-#a_nav ul li:hover ul {
-	display: block;
-}
-
-#a_nav ul li:hover ul li {
-	padding: 0;
-	border: 0px solid #111;
-} */
-
-
 
 #rightcontent {
 	position:relative;

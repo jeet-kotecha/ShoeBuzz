@@ -45,7 +45,7 @@
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">My Account</h3>
+					<h3 id="myModalLabel">My Profile</h3>
 				</div>
 					<div class="modal-body">
 						<?php
@@ -93,9 +93,9 @@
 <div id="container">
 	<div class="nav">
 			 <ul>
-				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Category</a></li>
-				<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product1.php"><i class="icon-th-list"></i>Category</a></li>
+				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
@@ -146,16 +146,6 @@
 			
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
 		</div>
-
-			<div id="foot">
-				<h4>Links</h4>
-					<ul>
-						<a href="http://www.facebook.com/shoebuzz"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/shoebuzz"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/shoebuzz"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/OnlinesShoeStore"><li>Tumblr</li></a>
-					</ul>
-			</div>
 	</div>
 </body>
 </html>
