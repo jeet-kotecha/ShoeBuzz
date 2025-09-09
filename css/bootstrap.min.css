@@ -709,11 +709,11 @@ a.text-error:hover {
 }
 
 .text-info {
-    color: #3a87ad
+    color: #000000
 }
 
 a.text-info:hover {
-    color: #2d6987
+    color: #000000
 }
 
 .text-success {
