@@ -145,9 +145,7 @@
 					<li></li>
 				</ul>
 			</div>
-			 -->
-				
-				
+			 -->				
 			<div class="footer-fifth">
 			<ul>
 				<li>CONTECT US :</li>
@@ -158,11 +156,8 @@
 		</div>
 		</div>
 		<div class="foot">
-			
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
-		</div>
-
-			
+		</div>			
 	</div>
 </body>
 </html>

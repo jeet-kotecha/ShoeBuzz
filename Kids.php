@@ -184,9 +184,9 @@
 				<div class="footer-third">
 				<ul>
 					<li>EXPLOER Footwear For :</li>
-					<li><a href="product.php">Footwear For Men</a></li>
-					<li><a href="Women.php">Footwear For Women</a></li>
-					<li><a href="Kids.php">Footwear For Kids</a></li>
+					<li><a href="product.php">Mens</a></li>
+					<li><a href="Women.php">Womens</a></li>
+					<li><a href="Kids.php">Kids</a></li>
 				</ul>
 				</div>
 				<!-- 			
@@ -213,9 +213,7 @@
 		<div class="foot">
 			
 			<p style="font-size:17px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
-		</div>
-
-			
+		</div>	
 	</div>
 </body>
 </html>

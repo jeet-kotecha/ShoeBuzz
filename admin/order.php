@@ -240,16 +240,9 @@ function formatMoney($number, $fractional=false) {
 }
 ?>
 
-
-
-
-
 	</div>
 	</form>
 			</div>
 			</div>
-
-
-
 </body>
 </html>

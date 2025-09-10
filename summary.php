@@ -194,13 +194,53 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 		<br />
 </div>
 <br />
-	<div id="footer">
+		<div id="footer">
+		<div class="ufooter">
+				<div class="footer-first">
+				<img src="img/logo.jpg">
+				<p>Made For Your Every Step.</p>
+				</div>	
+				<div class="footer-second">
+				<ul>
+					<li><a href="faqs.php">PRE-SALE FAQS</a></li>
+					<li><a href="contactus.php">CONTECT US</a></li>
+					<li><a href="privacy.php">PRIVACY POLICY</a></li>
+					<li><a href="aboutus.php">ABOUT US</a></li>
+				</ul>
+				</div>
+				<div class="footer-third">
+				<ul>
+					<li>EXPLOER Footwear For :</li>
+					<li><a href="product.php">Mens</a></li>
+					<li><a href="Women.php">Womens</a></li>
+					<li><a href="Kids.php">Kids</a></li>
+				</ul>
+				</div>
+				<!-- 			
+			<div class="footer-fourth">
+				<ul>
+					<li>LOCATION :</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			 -->
+				
+				
+			<div class="footer-fifth">
+			<ul>
+				<li>CONTECT US :</li>
+				<li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>    Facebook</a></li>
+				<li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>    Instagram</a></li>
+				<li><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i>    x-twitter</a></li>
+			</ul>
+		</div>
+		</div>
 		<div class="foot">
 			
-			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>		</div>
-		</div>
-
-			
+			<p style="font-size:17px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+		</div>	
 	</div>
 </body>
 </html>

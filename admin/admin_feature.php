@@ -57,7 +57,7 @@
 	<br>
 
 
-		<a href="#add" role="button" class="btn btn-info" data-toggle="modal" style="position:absolute;margin-left:25%; margin-top:325px; z-index:-1000;"><i class="icon-plus-sign icon-white"></i>Add Product</a>
+		<a href="#add" role="button" class="btn btn-info" data-toggle="modal" style="position:absolute;margin-left:25%; margin-top:225px; z-index:-1000;"><i class="icon-plus-sign icon-white"></i>Add Product</a>
 		<div id="add" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>

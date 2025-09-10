@@ -127,26 +127,25 @@
 <div>
 	<br />
 	<div id="footer">
-		<div class="foot">
-				<div class="ufooter">
+		<div class="ufooter">
 				<div class="footer-first">
 				<img src="img/logo.jpg">
 				<p>Made For Your Every Step.</p>
 				</div>	
 				<div class="footer-second">
 				<ul>
-					<li><a href="faqs1.php">PRE-SALE FAQS</a></li>
-					<li><a href="contactus1.php">CONTECT US</a></li>
-					<li><a href="privacy1.php">PRIVACY POLICY</a></li>
-					<li><a href="aboutus1.php">ABOUT US</a></li>
+					<li><a href="faqs.php">PRE-SALE FAQS</a></li>
+					<li><a href="contactus.php">CONTECT US</a></li>
+					<li><a href="privacy.php">PRIVACY POLICY</a></li>
+					<li><a href="aboutus.php">ABOUT US</a></li>
 				</ul>
 				</div>
 				<div class="footer-third">
 				<ul>
 					<li>EXPLOER Footwear For :</li>
-					<li><a href="product.php">Mens</a></li>
-					<li><a href="Women.php">Womens</a></li>
-					<li><a href="Kids.php">Kids</a></li>
+					<li><a href="product.php">Footwear For Men</a></li>
+					<li><a href="Women.php">Footwear For Women</a></li>
+					<li><a href="Kids.php">Footwear For Kids</a></li>
 				</ul>
 				</div>
 				<!-- 			
@@ -158,9 +157,7 @@
 					<li></li>
 				</ul>
 			</div>
-			 -->
-				
-				
+			 -->				
 			<div class="footer-fifth">
 			<ul>
 				<li>CONTECT US :</li>
@@ -172,10 +169,7 @@
 		</div>
 		<div class="foot">
 			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
-		</div>
-
-			
-
+		</div>			
 	</div>
 </body>
 </html>
