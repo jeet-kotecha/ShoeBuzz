@@ -81,15 +81,15 @@
 					<div class="modal-body">
 						<center>
 					<form method="post">
-						<input type="text" name="firstname" placeholder="Firstname" required>
-						<input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required>
-						<input type="text" name="lastname" placeholder="Lastname" required>
+						<input type="text" name="firstname" placeholder="Firstname" style="width:430px;"required>
+						<input type="text" name="mi" placeholder="Middle Initial" style="width:430px;"maxlength="1" required>
+						<input type="text" name="lastname" placeholder="Lastname"style="width:430px;" required>
 						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
-						<input type="text" name="country" placeholder="Country" required>
-						<input type="text" name="pincode" placeholder="Pin Code" required maxlength="6">
-						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">						
-						<input type="email" name="email" placeholder="Email" required>
-						<input type="password" name="password" placeholder="Password" required>
+						<input type="text" name="country" placeholder="Country"style="width:430px;" required>
+						<input type="text" name="pincode" pattern="[0-9]{6}"placeholder="Pin Code" style="width:430px;" required maxlength="6"><br>
+						<input type="text" name="mobile" pattern="[91][0-9]{9}" placeholder="Mobile Number"style="width:430px;" maxlength="10">						
+						<input type="email" name="email" placeholder="Email" style="width:430px;"required>
+						<input type="password" name="password" placeholder="Password"style="width:430px;" required>
 						</center>
 					</div>
 				<div class="modal-footer">
@@ -186,7 +186,7 @@
 				<div class="footer-third">
 				<ul>
 					<li>EXPLOER Footwear For :</li>
-					<li><a href="product.php">Mens</a></li>
+					<li><a href="product.php">Mensstyle="width:430px;"</a></li>
 					<li><a href="Women.php">Womens</a></li>
 					<li><a href="Kids.php">Kids</a></li>
 				</ul>

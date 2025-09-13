@@ -162,7 +162,8 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
     <input type="hidden" name="cancel_return" value="function/cancel.php">
     <input type="hidden" name="return" value="function/success.php">
 <!--    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
-	<input type="button" class="btn btn-success" name="edit" value="Purchase"></a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+<input type="button" class="btn btn-success" name="edit" value="Purchase"></a>
     <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </div>

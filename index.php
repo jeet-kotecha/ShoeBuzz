@@ -2,6 +2,9 @@
 	include("function/login.php");
 	include("function/customer_signup.php");
 ?>
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,8 +69,8 @@
 						<input type="text" name="lastname" placeholder="Lastname" style="width:430px;" required><br>
 						<input type="text" name="address" placeholder="Address" style="width:430px;" required><br>
 						<input type="text" name="country" placeholder="Country" style="width:430px;" required><br>
-						<input type="text" name="pincode" placeholder="Pin Code" style="width:430px;" required maxlength="6"><br>
-						<input type="text" name="mobile" placeholder="Mobile Number" style="width:430px;" maxlength="19"><br>
+						<input type="text" name="pincode" pattern="[0-9]{6}"placeholder="Pin Code" style="width:430px;" required maxlength="6"><br>
+						<input type="text" name="mobile" pattern="[91][0-9]{9}" placeholder="Mobile Number" style="width:430px;" maxlength="10"><br>
 						<input type="email" name="email" placeholder="Email" style="width:430px;" required><br>
 						<input type="password" name="password" placeholder="Password" style="width:430px;" required><br>
 						</center>

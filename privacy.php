@@ -67,8 +67,8 @@
 						<input type="text" name="lastname" placeholder="Lastname" required>
 						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
 						<input type="text" name="country" placeholder="Country" required>
-						<input type="text" name="pincode" placeholder="Pin Code" required maxlength="6">
-						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">						
+						<input type="text" name="pincode" pattern="[0-9]{6}"placeholder="Pin Code" style="width:430px;" required maxlength="6"><br>
+						<input type="text" name="mobile" pattern="[91][0-9]{9}" placeholder="Mobile Number" maxlength="10">						
 						<input type="email" name="email" placeholder="Email" required>
 						<input type="password" name="password" placeholder="Password" required>
 						</center>

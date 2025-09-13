@@ -199,8 +199,8 @@
 							$Q2 = $conn->query("SELECT * FROM transaction_detail LEFT JOIN product ON product.product_id = transaction_detail.product_id WHERE transaction_detail.transaction_id = '$tid' ");
 							$r2 = $Q2->fetch_array();
 
-							$pid = $r2['product_id'];
-							$o_qty = $r2['order_qty'];
+							//$pid = $r2['product_id'];
+							//$o_qty = $r2['order_qty'];
 
 							$p_price = $r2['product_price'];
 							$brand = $r2['product_name'];
