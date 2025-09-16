@@ -1,0 +1,218 @@
+<?php
+	include("function/session.php");
+	include("db/dbconn.php");
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoe Buzz</title>
+	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/button.js"></script>
+	<script src="js/dropdown.js"></script>
+	<script src="js/tab.js"></script>
+	<script src="js/tooltip.js"></script>
+	<script src="js/popover.js"></script>
+	<script src="js/collapse.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/scrollspy.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/transition.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<div id="header">
+		<img src="img/logo.jpg">
+		<label>Shoe Buzz</label>
+
+			<?php
+				$id = (int) $_SESSION['id'];
+
+					$query = $conn->query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
+					$fetch = $query->fetch_array ();
+			?>
+
+			<ul>
+				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+			</ul>
+	</div>
+
+		<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+					<h3 id="myModalLabel">My Profile</h3>
+				</div>
+					<div class="modal-body">
+						<?php
+							$id = (int) $_SESSION['id'];
+
+								$query = $conn->query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
+								$fetch = $query->fetch_array ();
+						?>
+						<center>
+					<form method="post">
+						<center>
+							<table>
+								<tr>
+									<td class="profile">Name:</td><td class="profile"><?php echo $fetch['firstname'];?>&nbsp;<?php echo $fetch['mi'];?>&nbsp;<?php echo $fetch['lastname'];?></td>
+								</tr>
+								<tr>
+									<td class="profile">Address:</td><td class="profile"><?php echo $fetch['address'];?></td>
+								</tr>
+								<tr>
+									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
+								</tr>
+								<tr>
+									<td class="profile">Pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
+								</tr>
+								<tr>
+									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
+								</tr>
+								
+								<tr>
+									<td class="profile">Email:</td><td class="profile"><?php echo $fetch['email'];?></td>
+								</tr>
+							</table>
+						</center>
+					</div>
+				<div class="modal-footer">
+					<a href="account.php?id=<?php echo $fetch['customerid']; ?>"><input type="button" class="btn btn-success" name="edit" value="Edit Account"></a>
+					<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+				</div>
+					</form>
+			</div>
+
+
+
+
+	<br>
+<div id="container">
+
+
+
+
+	<div id="content">
+		<div class="nav">
+
+			 <ul>
+				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product1.php"><i class="icon-th-list"></i>Category</a>
+				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
+				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
+			</ul>
+		</div>
+<div class="hero">
+		<div id="carousel">
+			<div id="myCarousel" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
+				</div>
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+		</div>
+
+</div>
+		<div id="product" style="position:relative; margin-top:5%;">
+			<center><h2><legend>Featured Items</legend></h2></center>
+			<br />
+
+			<?php
+
+				$query = $conn->query("SELECT *FROM product WHERE category='feature' ORDER BY product_id DESC") or die (mysqli_error());
+
+					while($fetch = $query->fetch_array())
+						{
+
+						$pid = $fetch['product_id'];
+
+						$query1 = $conn->query("SELECT * FROM stock WHERE product_id = '$pid'") or die (mysqli_error());
+						$rows = $query1->fetch_array();
+
+						$qty = $rows['qty'];
+						if($qty <= 5){
+
+						}else{
+							echo "<div class='float'>";
+							echo "<center>";
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='img/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							echo "".$fetch['product_name']."";
+							echo "<br />";
+							echo "Price :".$fetch['product_price']."";
+							echo "<br />";
+							echo "<h3 class='text-info' > Size: ".$fetch['product_size']."</h3>";
+							echo "</center>";
+							echo "</div>";
+						}
+
+						}
+			?>
+		</div>
+
+
+	</div>
+
+		<br />
+</div>
+<br />
+	<br />
+	<div id="footer">
+				<div class="ufooter">
+				<div class="footer-first">
+				<img src="img/logo.jpg">
+				<p>Made For Your Every Step.</p>
+				</div>	
+				<div class="footer-second">
+				<ul>
+					<li><a href="faqs1.php">PRE-SALE FAQS</a></li>
+					<li><a href="contactus1.php">CONTECT US</a></li>
+					<li><a href="privacy1.php">PRIVACY POLICY</a></li>
+					<li><a href="aboutus1.php">ABOUT US</a></li>
+				</ul>
+				</div>
+				<div class="footer-third">
+				<ul>
+					<li>EXPLOER Footwear For :</li>
+					<li><a href="product.php">Mens</a></li>
+					<li><a href="Women.php">Womens</a></li>
+					<li><a href="Kids.php">Kids</a></li>
+				</ul>
+				</div>
+				<!-- 			
+			<div class="footer-fourth">
+				<ul>
+					<li>LOCATION :</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			 -->
+				
+				<div class="footer-fifth">
+			<ul>
+				<li>CONTECT US :</li>
+				<li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i>    Facebook</a></li>
+				<li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i>    Instagram</a></li>
+				<li><a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i>    x-twitter</a></li>
+			</ul>
+		</div>
+		</div>
+		<div class="foot">
+			
+			<p style="font-size:13px;"> Copyright &copy; Shoe Buzz Inc. 2025 Brought To You by <b>Prem & Jeet</b></a></p>
+		</div>
+
+			
+	</div>
+</body>
+</html>

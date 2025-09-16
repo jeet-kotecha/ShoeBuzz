@@ -1,0 +1,436 @@
+body{
+	background-color: #fff6ea;
+}
+#header {
+	height: 70px;
+	width: 100%;
+	background-color: #0F0E47;
+	color: #ffffff;
+	text-indent: 10px;
+	-webkit-box-shadow: 0px 0px 20px 0px black;
+	-moz-box-shadow: 0px 0px 20px 0px black;
+	box-shadow: 0px 0px 20px 0px black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+#header img {
+	position: absolute;
+	height: 45px;
+	width: 45px;
+	margin-left: 20px;
+	margin-top: 2.5px;
+}
+
+#header label {
+	position: relative;
+	top: 15px;
+	color: #fff;
+	text-indent: 80px;
+	font-size: 30px;
+	clear: both;
+	font-family: arial;
+	margin-bottom: 28px;
+}
+
+#header ul {
+	list-style-type: none;
+	position: relative;
+	margin-right: 40px;
+}
+
+#header ul li {
+	display: inline;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	bottom: 8px;
+	margin-top: 25px;
+}
+
+#header ul li a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 10px;
+	font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+#header ul li a:hover {
+	color: rgb(255, 255, 255);
+	padding: 7px;
+}
+#header ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+#header ul li a:hover::after {
+  width: 100%;
+}
+#container {
+	margin: auto;
+	width: 1150px;
+
+}
+
+#content {
+	top: 10px;
+}
+.nav {
+	text-indent: 10px;
+	font-size: 15px;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav ul li {
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav a {
+  text-decoration: none !important;
+  color: black;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color change */
+.nav a:hover {
+  color: #0F0E47; /* matches your orange theme */
+}
+
+/* Underline effect */
+.nav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 10%;
+  bottom: -5px;
+  background-color: #0F0E47;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.nav a:hover::after {
+  width: 100%;
+}
+.nav1 {
+	text-indent: 30px;
+	font-size: 15px;
+	/* background-color: #ff5900; */
+	height: 50px;
+	/* border: 1px solid black; */
+	border-radius: 25px;
+}
+
+.nav1 ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav1 ul li {
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav1 a {
+  text-decoration: none !important;
+  color: black;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color change */
+.nav1 a:hover {
+  color: #000000; /* matches your orange theme */
+}
+
+/* Underline effect */
+.nav1 a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  left: 15%;
+  bottom: -5px;
+  background-color: #000000;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.nav1 a:hover::after {
+  width: 100%;
+}
+#carousel {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 300px;
+}
+.carousel-inner {
+	width: 100%;
+}
+.hero {
+	width: 100%;
+	height: 500px;
+}
+.carousel {
+	width: 1150px;
+	height: 550px;
+}
+.profile {
+	font-size: 20px;
+	padding: 5px;
+}
+.anav {
+	text-indent: 10px;
+	font-size: 15px;
+	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.anav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anav ul li {
+	display: inline;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anav a {
+  text-decoration: none !important;
+  color: black;
+  padding: 10px 15px;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover color change */
+.anav a:hover {
+  color: #0F0E47; /* matches your orange theme */
+}
+
+/* Underline effect */
+.anav a::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 5%;
+  bottom: -5px;
+  background-color: #0F0E47;
+  transition: width 0.3s ease;
+}
+
+/* Expand underline on hover */
+.anav a:hover::after {
+  width: 100%;
+}
+
+/*.content
+	{
+	width:500px;
+	height:500px;	
+	}*/
+.login_title {
+	font-size: 26px;
+	color: #0099FF;
+	font-family: Impact, Charcoal, sans-serif;
+	border-bottom: dashed 1px #CCCCCC;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+	margin: 15px 20px 5px;
+	line-height: 35px;
+}
+
+.content h3 {
+	font-size: 10px;
+	margin-left: 15px;
+}
+
+#account {
+	position: relative;
+	margin-top: 2%;
+}
+
+#account form table tr td {
+	font-size: 18px;
+}
+
+#admin form {
+	position: relative;
+	width: 350px;
+	height: 200px;
+	margin: auto;
+	margin-top: 5%;
+}
+
+
+
+
+#product {
+	position: relative;
+	width: 1150px;
+	height: auto;
+}
+
+.float {
+	width: 300px;
+	height: 330px;
+	float: left;
+	margin-left: 55px;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+
+.float img {
+	width: 300px;
+	height: 230px;
+}
+
+
+#product img:hover {
+	border: 8px groove #ccc;
+	width: 280px;
+	height: 210px;
+}
+
+/* .active {
+	color: #000;
+	border-bottom: 5px solid #111;
+	padding: 10px;
+} */
+
+#footer {
+	position: relative;
+	color: #fff;
+	width: 100%;
+	height: 250px;
+	margin-bottom: 0%;
+	clear: both;
+	background-color: #0F0E47;
+	/* background:linear-gradient(#2f2f2f ,#000);
+		background:-moz-linear-gradient(#2f2f2f ,#000);
+		background:-webkit-linear-gradient(#2f2f2f ,#000); */
+	-webkit-box-shadow: 0px 0px 20px 0px black;
+	-moz-box-shadow: 0px 0px 20px 0px black;
+	box-shadow: 0px 0px 20px 0px black;
+	border-top: 1px solid black;
+	
+}
+.ufooter{
+	display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer-first img {
+	height: 45px;
+	width: 45px;
+}
+#footer ul {
+	list-style: none;
+	text-decoration: none;
+	color: #ffffff;
+}
+#footer ul li a{
+	color:aliceblue;
+	text-decoration: none;
+}
+#footer ul li a:hover{
+	color :grey
+}
+.foot {
+	font-size: 20px;
+	position: relative;
+	margin-top: 80px;
+	margin-left: 750px;
+	float: left;
+	text-align: center;
+	color: #f4f0f0;
+	}
+
+#foot {
+	position: relative;
+	float: right;
+	margin-right: 10%;
+	text-align: center;
+}
+
+#foot ul a li {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+}
+
+#foot ul a li:hover {
+	-webkit-box-shadow: 2px 2px 2px black;
+	-moz-box-shadow: 2px 2px 2px black;
+	box-shadow: 2px 2px 2px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+}
+
+#develop {
+	position: relative;
+	float: right;
+	margin-right: 15%;
+}
+
+#develop ul a li {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+}
+
+#develop ul a li:hover {
+	-webkit-box-shadow: 2px 2px 2px black;
+	-moz-box-shadow: 2px 2px 2px black;
+	box-shadow: 2px 2px 2px black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+}
+
+#rightcontent {
+	position:relative;
+	width: 1025px;
+	top: 50px;
+	left: 220px;
+	z-index: -99999;
+	
+}
