@@ -112,6 +112,10 @@ Occidental and it will take 4-6 days Nationwide.
 				<hr>
 					<h4>Can you give return policy?</h4>
 					<p style="text-indent:60px;">No, we can not give return policy.</p>
+				<hr>
+					<h4>Which method you choose for payment?</h4>
+					<p style="text-indent:60px;">We choose Cash on delivery.</p>
+				<hr>
 
 		</div>
 	<br />
