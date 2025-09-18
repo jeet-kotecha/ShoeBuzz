@@ -98,7 +98,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Category</a></li>
+				<li><a href="product1.php"> <i class="icon-th-list"></i>Category</a></li>
 				<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
@@ -162,7 +162,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
     <input type="hidden" name="cancel_return" value="function/cancel.php">
     <input type="hidden" name="return" value="function/success.php">
 <!--    <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
-	<input type="button" class="btn btn-success" name="edit" value="Purchase"></a>
+	<center><input type="button" class="btn btn-success" name="edit" value="order placed successfully"></center> </a>
     <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
 </div>
